@@ -61,4 +61,31 @@ footer {
 	text-align: center;
 	padding: 20px 0;
 }
-	
+
+/* Estilos adicionales para la galería*/
+
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.category {
+	margin: 20px;
+}
+.category h2 {
+	text-align: center;
+}
+
+.image-container{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+
