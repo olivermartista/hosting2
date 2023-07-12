@@ -1,11 +1,64 @@
 body {
-	background: #ffa4b6;
-	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serfi;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
 	padding: 20px;
-	font-size: 25px;
-	color: #942d3f;
-	}
-ol {
-	text-align:center;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+	background-color: #333;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos del héroe */
+#hero {
+	background-image: url ("ciudad_colonial_iglesia_480.png");
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+	padding: 200px 0;
+}
+
+.hero-content {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+/* Estilos del pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
 }
 	
