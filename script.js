@@ -1,9 +1,9 @@
 // Ejemplo de datos de imágenes
 const images = [
-  { category: 'oleo', src: 'oleo1.jpg' },
-  { category: 'oleo', src: 'oleo2.jpg' },
-  { category: 'acrilica', src: 'acrilica1.jpg' },
-  { category: 'acrilica', src: 'acrilica2.jpg' },
+  { category: 'oleo', src: 'img/oleo1.jpg' },
+  { category: 'oleo', src: 'img/oleo2.jpg' },
+  { category: 'acrilica', src: 'img/acrilica1.jpg' },
+  { category: 'acrilica', src: 'img/acrilica2.jpg' },
   // Agrega más imágenes y categorías según tus necesidades
 ];
 
