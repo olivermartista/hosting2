@@ -7,18 +7,17 @@ const images = [
   // Agrega más imágenes y categorías según tus necesidades
 ];
 
-//Función para generar las imágenes en la galería
+// Función para generar las imágenes en la galería
 function generateGallery() {
   const galleryContainer = document.getElementById('gallery');
 
   images.forEach(image => {
-    const categoryContainer = document.querySelector('category[data-category="${image.category}"]');
+    const categoryContainer = document.querySelector(`.category[data-category="${image.category}"]`);
     const imageElement = document.createElement('img');
     imageElement.src = image.src;
-    categoryContainer.querySelector('.image-container').appendChild(imageElement);    
-  });        
+    categoryContainer.querySelector('.image-container').appendChild(imageElement);
+  });
 }
 
-
 // Llama a la función para generar la galería al cargar la página
-window.addEventListener('load' , generateGallery);
+window.addEventListener('load', generateGallery);
